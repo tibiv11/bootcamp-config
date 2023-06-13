@@ -55,7 +55,7 @@ rawdbs:
       rawtables:
           - rawtable-name: datapoints
             pipelines:
-                - source: csv
+                - source: ice-cream-api
                   schedule: On trigger
                   contacts:
                       - name: Vancza_Tibor
